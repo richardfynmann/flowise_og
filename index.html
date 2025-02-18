@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrecisionOil Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-overlay {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+        }
+        .service-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <nav class="fixed w-full z-50 bg-blue-900 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://private-user-images.githubusercontent.com/7920085/414064511-24021c4e-5d59-4dfb-a1cc-7cc94032bdb5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4NDQyNTMsIm5iZiI6MTczOTg0Mzk1MywicGF0aCI6Ii83OTIwMDg1LzQxNDA2NDUxMS0yNDAyMWM0ZS01ZDU5LTRkZmItYTFjYy03Y2M5NDAzMmJkYjUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDIxOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAyMThUMDE1OTEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzVjZDBiZDAzYWRhNjE4ZjQ3NzM3ZTA1NzE0ZmU1MzQ4OTNkYTAyOGVhZTk5OTA0NzcwN2M2ZjAxYTk5NWQ2ZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.BsW5RmEie3C-mM8V3t0eDx7Dp0fr-zjz_zIS93cdmo0" alt="Logo" class="mr-3 rounded-full">
+                <span class="text-2xl font-bold">PrecisionOil</span>
+            </div>
+            <div class="space-x-6">
+                <a href="#home" class="hover:text-blue-300 transition">Home</a>
+                <a href="#services" class="hover:text-blue-300 transition">Services</a>
+                <a href="#about" class="hover:text-blue-300 transition">About</a>
+                <a href="#team" class="hover:text-blue-300 transition">Team</a>
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="relative h-screen flex items-center bg-cover bg-center" style="background-image: url('https://private-user-images.githubusercontent.com/7920085/414066016-d0682376-eccd-44e5-9d68-f0693e98bbc9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4NDQ3MTYsIm5iZiI6MTczOTg0NDQxNiwicGF0aCI6Ii83OTIwMDg1LzQxNDA2NjAxNi1kMDY4MjM3Ni1lY2NkLTQ0ZTUtOWQ2OC1mMDY5M2U5OGJiYzkucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDIxOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAyMThUMDIwNjU2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzllNmE3MjJjZWFhOWMxZDFlZGI2Y2NiNzY1MGY3NjE2ZmZlNmQxNzM4NmUxYmNmOGI4NTM1OGQ3ZGIwNWJiOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.bGDgUF7y58YzqD9LUkdXFJqLj6uHLXuzQEcTM5roppo');">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="container mx-auto text-center relative z-10 text-white">
+            <h1 class="text-5xl font-bold mb-6 tracking-tight">Advanced Oil Field Solutions</h1>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Cutting-edge technologies and expert services to optimize oil extraction and operational efficiency</p>
+            <div class="space-x-4">
+                <a href="#services" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg transition">Our Services</a>
+                <a href="#contact" class="border-2 border-white hover:bg-white hover:text-blue-900 px-6 py-3 rounded-lg transition">Get Consultation</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Our Specialized Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="service-card bg-gray-100 p-8 rounded-lg shadow-md text-center">
+                    <i class="fas fa-drill text-5xl text-blue-600 mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-4">Drilling Optimization</h3>
+                    <p>Advanced drilling techniques and technology integration</p>
+                </div>
+                <div class="service-card bg-gray-100 p-8 rounded-lg shadow-md text-center">
+                    <i class="fas fa-tools text-5xl text-blue-600 mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-4">Equipment Maintenance</h3>
+                    <p>Proactive maintenance and repair of oil extraction equipment</p>
+                </div>
+                <div class="service-card bg-gray-100 p-8 rounded-lg shadow-md text-center">
+                    <i class="fas fa-chart-line text-5xl text-blue-600 mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-4">Geological Consulting</h3>
+                    <p>Comprehensive geological analysis and resource optimization</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 pr-8 mb-8 md:mb-0">
+                <h2 class="text-4xl font-bold mb-6">About PrecisionOil</h2>
+                <p class="text-lg mb-4">With 25+ years of industry expertise, we deliver innovative solutions that push the boundaries of oil field operations.</p>
+                <p class="text-lg mb-6">Our multidisciplinary team combines technical excellence, cutting-edge technology, and strategic insights to maximize efficiency and safety.</p>
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition">Learn More</a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="/api/placeholder/600/400" alt="Oil Field" class="rounded-lg shadow-xl">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto">
+            <div class="max-w-2xl mx-auto bg-gray-100 rounded-lg shadow-lg p-10">
+                <h2 class="text-4xl font-bold text-center mb-10">Contact Our Experts</h2>
+                <form class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg">
+                        <input type="email" placeholder="Your Email" class="w-full p-3 border rounded-lg">
+                    </div>
+                    <textarea placeholder="Your Message" class="w-full p-3 border rounded-lg" rows="5"></textarea>
+                    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-900 text-white py-12">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 PrecisionOil Services. All Rights Reserved.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-blue-300"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "c8d35dbb-ee6b-4459-820f-80fdd374b0f1",
+            apiHost: "https://flowise-x0bw.onrender.com",
+        })
+    </script>
+
+
+</body>
+</html>
+
